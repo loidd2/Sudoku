@@ -50,6 +50,60 @@ Start with a baseline score (configurable). Points are added for correct moves a
 ### Threading
 Optional: run solver/checker in a background thread to provide instant verification without blocking the main UI loop.
 
+## 📦 Installation (via JitPack)
+
+You can easily use the **Sudoku** framework in your Java/Android project through [JitPack](https://jitpack.io).
+
+---
+
+### Step 1 — Add the JitPack repository
+
+Add the following in your **root** `settings.gradle` (at the end of `repositories`):
+
+```gradle
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+### Step 2 — Add the Dependency
+
+Replace `Tag` with the latest version (see badge below):
+
+```gradle
+dependencies {
+    implementation 'com.github.Sujal-Gupta-SG:Sudoku:Tag'
+}
+```
+
+#### 📌 Maven Users
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.github.Sujal-Gupta-SG</groupId>
+        <artifactId>Sudoku</artifactId>
+        <version>Tag</version>
+    </dependency>
+</dependencies>
+```
+
+#### Latest Version
+
+✅ That’s it!  
+The first time you build your project, JitPack will automatically fetch, compile, and provide the Sudoku library as a `.jar`.
+
 ## 📌 To-Do / Future Ideas
 - GUI Version (JavaFX / Swing)
 - Save & Load game
