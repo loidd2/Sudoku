@@ -128,6 +128,11 @@ Areas you can help with:
 - Improve puzzle generation (hardness, uniqueness)
 - Add more difficulty modes or scoring variants
 
+## license and badges
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+![JitPack](https://img.shields.io/jitpack/version/Sujal-Gupta-SG/Sudoku)
+
 ## 💬 Author
 Sujal Gupta   
 🌐 GitHub: Sujal-Gupta-SG
