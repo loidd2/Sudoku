@@ -131,7 +131,7 @@ Areas you can help with:
 ## license and badges
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
-![JitPack](https://img.shields.io/jitpack/version/Sujal-Gupta-SG/Sudoku)
+![JitPack](https://img.shields.io/jitpack/v/github/Sujal-Gupta-SG/Sudoku)
 
 ## 💬 Author
 Sujal Gupta   
